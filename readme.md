@@ -24,9 +24,6 @@ or, if it becomes too narrow\
 unconsti-\
 tionally
 
-**Important to know**: if you use soft hyphens, it can be a little frustrating because you won't see them in the source code or even in the database. This isn't related to CKEditor but to the behavior of the browser.
-However, if you display the page and play around with the responsive design, you'll see it in action, with hyphens included in the places where you inserted them.
-
 To do this, it's easy. Go to your site/modules/InputfieldCKEditor/ folder. If there is no plugins folder, create one. If there is one, put the plugin(s) you are interested in inside it, including folders and files, without changing their names (or if you do, make the appropriate changes to the files and code).
 
 Then check the desired additional extensions for the relevant field(s) (in the field tab).
@@ -46,5 +43,8 @@ Scayt, -, Sourcedialog, Maximize, wbr, softhyphen
 There, the buttons will be at the end of the list after the button to view in full screen.
 
 Of course, you can change the icons. Just change the png files in the icons folder, but be careful to name them exactly as the plugin name in lowercase letters.
+
+**Important to know**: if you use soft hyphens, it can be a little frustrating because you won't see them in the source code or even in the database. This isn't related to CKEditor but to the behavior of the browser.
+However, if you display the page and play around with the responsive design, you'll see it in action, with hyphens included in the places where you inserted them.
 
 You can also add a keyboard shortcut to the plugin (example commented in the code), but I don't dare to do so in order to avoid conflicting with an existing shortcut or using shortcuts that are not compatible with all operating systems.
