@@ -1,0 +1,1 @@
+# Unusual but could be useful plugin for CKEditor 4 in processwire
