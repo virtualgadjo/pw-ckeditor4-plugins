@@ -43,11 +43,10 @@ Scayt, -, Sourcedialog, Maximize, wbr, softhyphen
 
 There, the buttons will be at the end of the list after the button to view in full screen. (what they look like and the hover test)
 
-Of course, you can change the icons, just change the png files in the icons folder, (be careful to name them exactly as the plugin name in lowercase letters) the hover text, well, actually, whatever you want :).
-
-![insertwbr](assets/insert_wbr.png "insert wbr")
-
+![insertwbr](assets/insert_wbr.png "insert wbr")\
 ![inssofthyphen](assets/insert_softhyphen.png "insert softhyphen")
+
+Of course, you can change the icons, just change the png files in the icons folder, (be careful to name them exactly as the plugin name in lowercase letters) the hover text, well, actually, whatever you want :).
 
 **Important to know**: if you use soft hyphens, it can be a little frustrating because you won't see them in the source code or even in the database. This isn't related to CKEditor but to the behavior of the browser.
 However, if you display the page and play around with the responsive design, you'll see it in action, with hyphens included in the places where you inserted them.
