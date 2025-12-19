@@ -14,7 +14,8 @@ Not necessarily only that of course, if you have other things in your configurat
 CKEDITOR.config.extraAllowedContent = ‘wbr’;\
 CKEDITOR.config.entities_additional = ‘shy’;\
 if they are not already there\
-the first one authorizes the HTML tag wbr and the second one authorizes the HTML entity &shy; (note that neither & nor ; should be included in the config file).
+the first one authorizes the HTML tag wbr and the second one authorizes the HTML entity &shy; (note that neither & nor ; should be included in the config file).\
+(the commented line is just here for you to see how you can allow various tags with attributes if needed)
 
 Once that's done, you just need to install the appropriate plugin(s).\
 The wbr plugin to insert a <wbr /> tag: tells the browser where to break a word without displaying a visible hyphen.\
@@ -40,9 +41,13 @@ PasteText, PasteFromWord
 Scayt, -, Sourcedialog, Maximize, wbr, softhyphen
 ```
 
-There, the buttons will be at the end of the list after the button to view in full screen.
+There, the buttons will be at the end of the list after the button to view in full screen. (what they look like and the hover test)
 
-Of course, you can change the icons. Just change the png files in the icons folder, but be careful to name them exactly as the plugin name in lowercase letters.
+Of course, you can change the icons, just change the png files in the icons folder, (be careful to name them exactly as the plugin name in lowercase letters) the hover text, well, actually, whatever you want :).
+
+![insertwbr](assets/insert_wbr.png "insert wbr")
+
+![inssofthyphen](assets/insert_softhyphen.png "insert softhyphen")
 
 **Important to know**: if you use soft hyphens, it can be a little frustrating because you won't see them in the source code or even in the database. This isn't related to CKEditor but to the behavior of the browser.
 However, if you display the page and play around with the responsive design, you'll see it in action, with hyphens included in the places where you inserted them.
